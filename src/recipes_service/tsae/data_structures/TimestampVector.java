@@ -118,6 +118,7 @@ public class TimestampVector implements Serializable{
         if (tsVector == null) {
             return;
         }
+        
 		for(String hostID: tsVector.timestampVector.keySet()) {
 			
             Timestamp otherTimestamp = tsVector.timestampVector.get(hostID);

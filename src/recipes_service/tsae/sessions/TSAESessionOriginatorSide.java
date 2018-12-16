@@ -99,8 +99,6 @@ public class TSAESessionOriginatorSide extends TimerTask{
 		int current_session_number = session_number.incrementAndGet();
 		if (n == null) return;
 		
-		//lsim.log(Level.TRACE, "[TSAESessionOriginatorSide] [session: "+current_session_number+"] TSAE session");
-
 		try {
 			Socket socket = new Socket(n.getAddress(), n.getPort());
 			ObjectInputStream_DS in = new ObjectInputStream_DS(socket.getInputStream());
@@ -119,18 +117,13 @@ public class TSAESessionOriginatorSide extends TimerTask{
 			Message	msg = new MessageAErequest(localSummary, localAck);
 			msg.setSessionNumber(current_session_number);
             out.writeObject(msg);
-			//lsim.log(Level.TRACE, "[TSAESessionOriginatorSide] [session: "+current_session_number+"] sent message: "+msg);
 
             // receive operations from partner
 			msg = (Message) in.readObject();
-			//lsim.log(Level.TRACE, "[TSAESessionOriginatorSide] [session: "+current_session_number+"] received message: "+msg);
 			List<MessageOperation> operations = new ArrayList<MessageOperation>();
 			while (msg.type() == MsgType.OPERATION){
 				operations.add((MessageOperation)msg);
-				//System.out.println("Recibe mensaje\n");
-				//System.out.println(msg);
 				msg = (Message) in.readObject();
-				//lsim.log(Level.TRACE, "[TSAESessionOriginatorSide] [session: "+current_session_number+"] received message: "+msg);
 			}
 
             // receive partner's summary and ack
@@ -145,18 +138,15 @@ public class TSAESessionOriginatorSide extends TimerTask{
 					MessageOperation msgOp = new MessageOperation(op);
 					msgOp.setSessionNumber(current_session_number);
 					out.writeObject(msgOp);
-					//System.out.println("Originator envia operaciones");
-					lsim.log(Level.TRACE, "[TSAESessionOriginatorSide] [session: "+current_session_number+"] sent message: "+msg);
 				}
+				
 				// send and "end of TSAE session" message
 				msg = new MessageEndTSAE();  
 				msg.setSessionNumber(current_session_number);
 	            out.writeObject(msg);					
-				//lsim.log(Level.TRACE, "[TSAESessionOriginatorSide] [session: "+current_session_number+"] sent message: "+msg);
 
 				// receive message to inform about the ending of the TSAE session
 				msg = (Message) in.readObject();
-				//lsim.log(Level.TRACE, "[TSAESessionOriginatorSide] [session: "+current_session_number+"] received message: "+msg);
 				if (msg.type() == MsgType.END_TSAE){
 					
 					synchronized(serverData) {

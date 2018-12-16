@@ -51,8 +51,7 @@ public class TimestampMatrix implements Serializable{
 		}
 	}
 
-    private TimestampMatrix() {
-    }
+    private TimestampMatrix() {}
 
 	
 	
@@ -103,11 +102,14 @@ public class TimestampMatrix implements Serializable{
 	 * the timestamp known by all participants
 	 */
 	public synchronized TimestampVector minTimestampVector(){
-		String firstNode = this.timestampMatrix.keySet().iterator().next();
-		TimestampVector min = this.timestampMatrix.get(firstNode);
-
+		
+		TimestampVector min = null;
+		
 		for(String node: this.timestampMatrix.keySet()) {
-            min.mergeMin(this.timestampMatrix.get(node));
+            if (min == null)
+                min = this.timestampMatrix.get(node).clone();
+            else
+            	min.mergeMin(this.timestampMatrix.get(node));
 		}
 		return min;
 		

@@ -24,8 +24,6 @@ import java.util.List;
 import java.util.Timer;
 import java.util.Vector;
 
-import edu.uoc.dpcs.lsim.LSimFactory;
-import lsim.worker.LSimWorker;
 import recipes_service.activity_simulation.SimulationData;
 import recipes_service.communication.Host;
 import recipes_service.communication.Hosts;

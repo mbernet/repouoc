@@ -24,9 +24,7 @@ package recipes_service.tsae.sessions;
 import java.io.IOException;
 import java.net.Socket;
 import java.util.ArrayList;
-import java.util.Iterator;
 import java.util.List;
-import java.util.Vector;
 
 import communication.ObjectInputStream_DS;
 import communication.ObjectOutputStream_DS;
@@ -77,8 +75,7 @@ public class TSAESessionPartnerSide extends Thread{
 			// receive originator's summary and ack
 			msg = (Message) in.readObject();
 			current_session_number = msg.getSessionNumber();
-			//lsim.log(Level.TRACE, "[TSAESessionPartnerSide] [session: "+current_session_number+"] TSAE session");
-			//lsim.log(Level.TRACE, "[TSAESessionPartnerSide] [session: "+current_session_number+"] received message: "+ msg);
+			
 			if (msg.type() == MsgType.AE_REQUEST){
 			
 				TimestampVector localSummary;
@@ -96,29 +93,22 @@ public class TSAESessionPartnerSide extends Thread{
 				
 				newerOperations = this.serverData.getLog().listNewer(msgAE.getSummary());
 				for(Operation op: newerOperations) {
-					//System.out.println("Envia operacion nueva");
-					//System.out.println(op);
 					MessageOperation msgOp = new MessageOperation(op);
 					msgOp.setSessionNumber(current_session_number);
 					out.writeObject(msgOp);
-					//lsim.log(Level.TRACE, "[TSAESessionPartnerSide] [session: "+current_session_number+"] sent message: "+ msg);
 				}
 
 				// send to originator: local's summary and ack
 				msg = new MessageAErequest(localSummary, localAck);
 				msg.setSessionNumber(current_session_number);
 	 	        out.writeObject(msg);
-				//lsim.log(Level.TRACE, "[TSAESessionPartnerSide] [session: "+current_session_number+"] sent message: "+ msg);
 
 	            // receive operations
 				msg = (Message) in.readObject();
-				//lsim.log(Level.TRACE, "[TSAESessionPartnerSide] [session: "+current_session_number+"] received message: "+ msg);
 				List<MessageOperation> operations = new ArrayList<MessageOperation>();
 				while (msg.type() == MsgType.OPERATION){
 					operations.add((MessageOperation)msg);
 					msg = (Message) in.readObject();
-					//System.out.println("Partner recibe operaciones");
-					//lsim.log(Level.TRACE, "[TSAESessionPartnerSide] [session: "+current_session_number+"] received message: "+ msg);
 				}
 				
 				// receive message to inform about the ending of the TSAE session
