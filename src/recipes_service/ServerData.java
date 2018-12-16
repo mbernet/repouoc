@@ -102,7 +102,7 @@ public class ServerData {
 	 * Starts the execution
 	 * @param participantss
 	 */
-	public synchronized void startTSAE(Hosts participants){
+	public void startTSAE(Hosts participants){
 		this.participants = participants;
 		this.log = new Log(participants.getIds());
 		this.summary = new TimestampVector(participants.getIds());
@@ -115,22 +115,22 @@ public class ServerData {
 		tsaeSessionTimer.scheduleAtFixedRate(tsae, sessionDelay, sessionPeriod);
 	}
 
-	public synchronized void stopTSAEsessions(){
+	public void stopTSAEsessions(){
 		this.tsaeSessionTimer.cancel();
 	}
 	
-	public synchronized boolean end(){
+	public boolean end(){
 		return this.end;
 	}
 	
-	public synchronized void setEnd(){
+	public void setEnd(){
 		this.end = true;
 	}
 
 	// ******************************
 	// *** timestamps
 	// ******************************
-	private synchronized Timestamp nextTimestamp(){
+	private Timestamp nextTimestamp(){
 		Timestamp nextTimestamp = null;
 		synchronized (timestampLock){
 			if (seqnum == Timestamp.NULL_TIMESTAMP_SEQ_NUMBER){
@@ -155,7 +155,7 @@ public class ServerData {
 		this.recipes.add(rcpe);
 	}
 	
-	public synchronized void copyRecipe(AddOperation addOp) {
+	public synchronized void addRecipeOperation(AddOperation addOp) {
 
 		if (this.log.add(addOp)) {
 			this.recipes.add(addOp.getRecipe());
@@ -175,7 +175,7 @@ public class ServerData {
 		//System.err.println("Error: removeRecipe method (recipesService.serverData) not yet implemented");
 	}
 	
-	public synchronized void delRecipe(RemoveOperation removeOp) {
+	public synchronized void removeRecipeOperation(RemoveOperation removeOp) {
         if (this.log.add(removeOp)) {
         	this.recipes.remove(removeOp.getRecipeTitle());
     	}

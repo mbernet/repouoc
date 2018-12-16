@@ -132,11 +132,11 @@ public class TSAESessionPartnerSide extends Thread{
 							switch(op.getOperation().getType()) {
 								case ADD:
 									AddOperation addOp = (AddOperation)op.getOperation();
-									this.serverData.copyRecipe(addOp);
+									this.serverData.addRecipeOperation(addOp);
 									break;
 								case REMOVE:
 									RemoveOperation removeOp = (RemoveOperation)op.getOperation();
-									this.serverData.delRecipe(removeOp);
+									this.serverData.removeRecipeOperation(removeOp);
 									break;
 							}
 							

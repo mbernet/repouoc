@@ -134,19 +134,23 @@ public class TimestampMatrix implements Serializable{
 	@Override
 	public synchronized boolean equals(Object obj) {
 		
-		if (obj == null) {
+        if (obj == null) {
             return false;
         } else if (this == obj) {
             return true;
-        } else if ((obj instanceof TimestampMatrix)) {
-        	
-        	 TimestampMatrix other = (TimestampMatrix) obj;
-
-        	 for (String node: this.timestampMatrix.keySet()) {
-        		 return this.timestampMatrix.get(node).equals(other.timestampMatrix.get(node));
-        	 }
+        } else if (!(obj instanceof TimestampMatrix)) {
+            return false;
         }
-		return false;     
+
+        TimestampMatrix other = (TimestampMatrix) obj;
+
+        if (this.timestampMatrix == other.timestampMatrix) {
+            return true;
+        } else if (this.timestampMatrix == null || other.timestampMatrix == null) {
+            return false;
+        } else {
+            return this.timestampMatrix.equals(other.timestampMatrix);
+        }    
 	}
 
 	

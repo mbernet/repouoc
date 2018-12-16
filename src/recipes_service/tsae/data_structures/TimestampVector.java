@@ -86,19 +86,15 @@ public class TimestampVector implements Serializable{
 		if (tsVector == null)
 			return;
 
-		for(String hostID: timestampVector.keySet()) {
-			Timestamp other = tsVector.timestampVector.get(hostID);
-			if (other != null && other.compare(this.getLast(hostID)) > 0) {
-				timestampVector.replace(hostID, other);
-			}
-		}
-		
-		for(String hostID: tsVector.timestampVector.keySet()) {
-			Timestamp other = tsVector.timestampVector.get(hostID);
-			if (other != null && other.compare(this.getLast(hostID)) > 0) {
-				timestampVector.replace(hostID, other);
-			}
-		}
+        for (String node : this.timestampVector.keySet()) {
+            Timestamp otherTimestamp = tsVector.getLast(node);
+
+            if (otherTimestamp == null) {
+                continue;
+            } else if (this.getLast(node).compare(otherTimestamp) < 0) {
+                this.timestampVector.replace(node, otherTimestamp);
+            }
+        }
 	}
 	
 	/**
