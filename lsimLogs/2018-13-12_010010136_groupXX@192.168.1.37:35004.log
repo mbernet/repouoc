@@ -1,0 +1,4 @@
+13-12-2018 01:00:10:136 groupXX@192.168.1.37:35004 [INFO] : -- *** --> Server -- local node: [192.168.1.37,35004,groupXX@192.168.1.37:35004]
+13-12-2018 01:00:10:149 groupXX@192.168.1.37:35004 [INFO] : -- *** --> Server -- participants: [groupXX@192.168.1.37:35000, groupXX@192.168.1.37:35001, groupXX@192.168.1.37:35002, groupXX@192.168.1.37:35003, groupXX@192.168.1.37:35004]
+13-12-2018 01:00:10:154 groupXX@192.168.1.37:35004 [TRACE] : [TSAESessionOriginatorSide] [session: 1] TSAE session
+13-12-2018 01:00:10:156 groupXX@192.168.1.37:35004 [TRACE] : [TSAESessionOriginatorSide] [session: 2] TSAE session

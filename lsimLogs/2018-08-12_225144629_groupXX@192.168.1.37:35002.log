@@ -1,0 +1,232 @@
+08-12-2018 22:51:44:629 groupXX@192.168.1.37:35002 [INFO] : -- *** --> Server -- local node: [192.168.1.37,35002,groupXX@192.168.1.37:35002]
+08-12-2018 22:51:44:645 groupXX@192.168.1.37:35002 [INFO] : -- *** --> Server -- participants: [groupXX@192.168.1.37:35000, groupXX@192.168.1.37:35001, groupXX@192.168.1.37:35002]
+08-12-2018 22:51:44:652 groupXX@192.168.1.37:35002 [TRACE] : [TSAESessionOriginatorSide] [session: 1] TSAE session
+08-12-2018 22:51:44:681 groupXX@192.168.1.37:35002 [TRACE] : [TSAESessionPartnerSide] [session: 1] TSAE session
+08-12-2018 22:51:44:682 groupXX@192.168.1.37:35002 [TRACE] : [TSAESessionOriginatorSide] [session: 1] sent message: MessageAErequest [session: 1, summary=groupXX@192.168.1.37:35000:   -1000
+groupXX@192.168.1.37:35002:   -1000
+groupXX@192.168.1.37:35001:   -1000
+]
+08-12-2018 22:51:44:682 groupXX@192.168.1.37:35002 [TRACE] : [TSAESessionPartnerSide] [session: 1] received message: MessageAErequest [session: 1, summary=groupXX@192.168.1.37:35000:   -1000
+groupXX@192.168.1.37:35002:   -1000
+groupXX@192.168.1.37:35001:   -1000
+]
+08-12-2018 22:51:44:683 groupXX@192.168.1.37:35002 [TRACE] : [TSAESessionPartnerSide] [session: 2] TSAE session
+08-12-2018 22:51:44:683 groupXX@192.168.1.37:35002 [TRACE] : [TSAESessionPartnerSide] [session: 2] received message: MessageAErequest [session: 2, summary=groupXX@192.168.1.37:35000:   -1000
+groupXX@192.168.1.37:35002:   -1000
+groupXX@192.168.1.37:35001:   -1000
+]
+08-12-2018 22:51:44:683 groupXX@192.168.1.37:35002 [TRACE] : [TSAESessionPartnerSide] [session: 1] sent message: MessageAErequest [session: 1, summary=null]
+08-12-2018 22:51:44:686 groupXX@192.168.1.37:35002 [TRACE] : [TSAESessionPartnerSide] [session: 2] sent message: MessageAErequest [session: 2, summary=null]
+08-12-2018 22:51:44:689 groupXX@192.168.1.37:35002 [TRACE] : [TSAESessionOriginatorSide] [session: 1] received message: MessageAErequest [session: 1, summary=null]
+08-12-2018 22:51:44:689 groupXX@192.168.1.37:35002 [TRACE] : [TSAESessionPartnerSide] [session: 2] received message: MessageEndTSAE [session: 2]
+08-12-2018 22:51:44:689 groupXX@192.168.1.37:35002 [TRACE] : [TSAESessionOriginatorSide] [session: 1] sent message: MessageEndTSAE [session: 1]
+08-12-2018 22:51:44:690 groupXX@192.168.1.37:35002 [TRACE] : [TSAESessionPartnerSide] [session: 2] sent message: MessageEndTSAE [session: 2]
+08-12-2018 22:51:44:691 groupXX@192.168.1.37:35002 [TRACE] : [TSAESessionPartnerSide] [session: 2] End TSAE session
+08-12-2018 22:51:44:692 groupXX@192.168.1.37:35002 [TRACE] : [TSAESessionPartnerSide] [session: 1] received message: MessageEndTSAE [session: 1]
+08-12-2018 22:51:44:696 groupXX@192.168.1.37:35002 [TRACE] : [TSAESessionOriginatorSide] [session: 1] received message: MessageEndTSAE [session: 1]
+08-12-2018 22:51:44:697 groupXX@192.168.1.37:35002 [TRACE] : [TSAESessionOriginatorSide] [session: 1] End TSAE session
+08-12-2018 22:51:44:698 groupXX@192.168.1.37:35002 [TRACE] : [TSAESessionOriginatorSide] [session: 2] TSAE session
+08-12-2018 22:51:44:699 groupXX@192.168.1.37:35002 [TRACE] : [TSAESessionPartnerSide] [session: 1] sent message: MessageEndTSAE [session: 1]
+08-12-2018 22:51:44:700 groupXX@192.168.1.37:35002 [TRACE] : [TSAESessionPartnerSide] [session: 1] End TSAE session
+08-12-2018 22:51:44:706 groupXX@192.168.1.37:35002 [TRACE] : [TSAESessionOriginatorSide] [session: 2] sent message: MessageAErequest [session: 2, summary=groupXX@192.168.1.37:35000:   -1000
+groupXX@192.168.1.37:35002:   -1000
+groupXX@192.168.1.37:35001:   -1000
+]
+08-12-2018 22:51:44:711 groupXX@192.168.1.37:35002 [TRACE] : [TSAESessionOriginatorSide] [session: 2] received message: MessageAErequest [session: 2, summary=null]
+08-12-2018 22:51:44:712 groupXX@192.168.1.37:35002 [TRACE] : [TSAESessionOriginatorSide] [session: 2] sent message: MessageEndTSAE [session: 2]
+08-12-2018 22:51:44:716 groupXX@192.168.1.37:35002 [TRACE] : [TSAESessionOriginatorSide] [session: 2] received message: MessageEndTSAE [session: 2]
+08-12-2018 22:51:44:717 groupXX@192.168.1.37:35002 [TRACE] : [TSAESessionOriginatorSide] [session: 2] End TSAE session
+08-12-2018 22:51:54:660 groupXX@192.168.1.37:35002 [TRACE] : [TSAESessionPartnerSide] [session: 3] TSAE session
+08-12-2018 22:51:54:661 groupXX@192.168.1.37:35002 [TRACE] : [TSAESessionPartnerSide] [session: 3] received message: MessageAErequest [session: 3, summary=groupXX@192.168.1.37:35000:   0
+groupXX@192.168.1.37:35002:   -1000
+groupXX@192.168.1.37:35001:   -1000
+]
+08-12-2018 22:51:54:662 groupXX@192.168.1.37:35002 [TRACE] : [TSAESessionPartnerSide] [session: 3] sent message: MessageAErequest [session: 3, summary=null]
+08-12-2018 22:51:54:670 groupXX@192.168.1.37:35002 [TRACE] : [TSAESessionPartnerSide] [session: 3] received message: MessageOperation [session: 3, operation=AddOperation [recipe=[test1, test1, groupXX], timestamp=groupXX@192.168.1.37:35000:   0]]
+08-12-2018 22:51:54:671 groupXX@192.168.1.37:35002 [TRACE] : [TSAESessionPartnerSide] [session: 3] received message: MessageEndTSAE [session: 3]
+08-12-2018 22:51:54:672 groupXX@192.168.1.37:35002 [TRACE] : [TSAESessionPartnerSide] [session: 3] sent message: MessageEndTSAE [session: 3]
+08-12-2018 22:51:54:673 groupXX@192.168.1.37:35002 [TRACE] : [TSAESessionPartnerSide] [session: 3] End TSAE session
+08-12-2018 22:51:59:637 groupXX@192.168.1.37:35002 [TRACE] : [TSAESessionPartnerSide] [session: 4] TSAE session
+08-12-2018 22:51:59:638 groupXX@192.168.1.37:35002 [TRACE] : [TSAESessionPartnerSide] [session: 4] received message: MessageAErequest [session: 4, summary=groupXX@192.168.1.37:35000:   -1000
+groupXX@192.168.1.37:35002:   -1000
+groupXX@192.168.1.37:35001:   -1000
+]
+08-12-2018 22:51:59:639 groupXX@192.168.1.37:35002 [TRACE] : [TSAESessionPartnerSide] [session: 4] sent message: MessageAErequest [session: 4, summary=null]
+08-12-2018 22:51:59:644 groupXX@192.168.1.37:35002 [TRACE] : [TSAESessionPartnerSide] [session: 4] received message: MessageOperation [session: 4, operation=AddOperation [recipe=[test1, test1, groupXX], timestamp=groupXX@192.168.1.37:35000:   0]]
+08-12-2018 22:51:59:645 groupXX@192.168.1.37:35002 [TRACE] : [TSAESessionPartnerSide] [session: 4] received message: MessageEndTSAE [session: 4]
+08-12-2018 22:51:59:646 groupXX@192.168.1.37:35002 [TRACE] : [TSAESessionPartnerSide] [session: 4] sent message: MessageEndTSAE [session: 4]
+08-12-2018 22:51:59:647 groupXX@192.168.1.37:35002 [TRACE] : [TSAESessionPartnerSide] [session: 4] End TSAE session
+08-12-2018 22:52:04:656 groupXX@192.168.1.37:35002 [TRACE] : [TSAESessionOriginatorSide] [session: 3] TSAE session
+08-12-2018 22:52:04:660 groupXX@192.168.1.37:35002 [TRACE] : [TSAESessionOriginatorSide] [session: 3] sent message: MessageAErequest [session: 3, summary=groupXX@192.168.1.37:35000:   -1000
+groupXX@192.168.1.37:35002:   -1000
+groupXX@192.168.1.37:35001:   -1000
+]
+08-12-2018 22:52:04:668 groupXX@192.168.1.37:35002 [TRACE] : [TSAESessionOriginatorSide] [session: 3] received message: MessageOperation [session: 3, operation=AddOperation [recipe=[test1, test1, groupXX], timestamp=groupXX@192.168.1.37:35000:   0]]
+08-12-2018 22:52:04:669 groupXX@192.168.1.37:35002 [TRACE] : [TSAESessionOriginatorSide] [session: 3] received message: MessageAErequest [session: 3, summary=null]
+08-12-2018 22:52:04:670 groupXX@192.168.1.37:35002 [TRACE] : [TSAESessionOriginatorSide] [session: 3] sent message: MessageEndTSAE [session: 3]
+08-12-2018 22:52:04:673 groupXX@192.168.1.37:35002 [TRACE] : [TSAESessionOriginatorSide] [session: 3] received message: MessageEndTSAE [session: 3]
+08-12-2018 22:52:04:674 groupXX@192.168.1.37:35002 [TRACE] : Inserting into Log the operation: AddOperation [recipe=[test1, test1, groupXX], timestamp=groupXX@192.168.1.37:35000:   0]
+08-12-2018 22:52:04:674 groupXX@192.168.1.37:35002 [TRACE] : [TSAESessionOriginatorSide] [session: 3] End TSAE session
+08-12-2018 22:52:04:675 groupXX@192.168.1.37:35002 [TRACE] : [TSAESessionOriginatorSide] [session: 4] TSAE session
+08-12-2018 22:52:04:681 groupXX@192.168.1.37:35002 [TRACE] : [TSAESessionOriginatorSide] [session: 4] sent message: MessageAErequest [session: 4, summary=groupXX@192.168.1.37:35000:   -1000
+groupXX@192.168.1.37:35002:   -1000
+groupXX@192.168.1.37:35001:   -1000
+]
+08-12-2018 22:52:04:687 groupXX@192.168.1.37:35002 [TRACE] : [TSAESessionOriginatorSide] [session: 4] received message: MessageOperation [session: 4, operation=AddOperation [recipe=[test1, test1, groupXX], timestamp=groupXX@192.168.1.37:35000:   0]]
+08-12-2018 22:52:04:688 groupXX@192.168.1.37:35002 [TRACE] : [TSAESessionOriginatorSide] [session: 4] received message: MessageAErequest [session: 4, summary=null]
+08-12-2018 22:52:04:689 groupXX@192.168.1.37:35002 [TRACE] : [TSAESessionOriginatorSide] [session: 4] sent message: MessageAErequest [session: 4, summary=null]
+08-12-2018 22:52:04:690 groupXX@192.168.1.37:35002 [TRACE] : [TSAESessionOriginatorSide] [session: 4] sent message: MessageEndTSAE [session: 4]
+08-12-2018 22:52:04:694 groupXX@192.168.1.37:35002 [TRACE] : [TSAESessionOriginatorSide] [session: 4] received message: MessageEndTSAE [session: 4]
+08-12-2018 22:52:04:694 groupXX@192.168.1.37:35002 [TRACE] : Inserting into Log the operation: AddOperation [recipe=[test1, test1, groupXX], timestamp=groupXX@192.168.1.37:35000:   0]
+08-12-2018 22:52:04:695 groupXX@192.168.1.37:35002 [TRACE] : [TSAESessionOriginatorSide] [session: 4] End TSAE session
+08-12-2018 22:52:14:656 groupXX@192.168.1.37:35002 [TRACE] : [TSAESessionPartnerSide] [session: 5] TSAE session
+08-12-2018 22:52:14:660 groupXX@192.168.1.37:35002 [TRACE] : [TSAESessionPartnerSide] [session: 5] received message: MessageAErequest [session: 5, summary=groupXX@192.168.1.37:35000:   0
+groupXX@192.168.1.37:35002:   -1000
+groupXX@192.168.1.37:35001:   -1000
+]
+08-12-2018 22:52:14:661 groupXX@192.168.1.37:35002 [TRACE] : [TSAESessionPartnerSide] [session: 5] sent message: MessageAErequest [session: 5, summary=null]
+08-12-2018 22:52:14:664 groupXX@192.168.1.37:35002 [TRACE] : [TSAESessionPartnerSide] [session: 5] received message: MessageOperation [session: 5, operation=AddOperation [recipe=[test1, test1, groupXX], timestamp=groupXX@192.168.1.37:35000:   0]]
+08-12-2018 22:52:14:665 groupXX@192.168.1.37:35002 [TRACE] : [TSAESessionPartnerSide] [session: 5] received message: MessageEndTSAE [session: 5]
+08-12-2018 22:52:14:666 groupXX@192.168.1.37:35002 [TRACE] : [TSAESessionPartnerSide] [session: 5] sent message: MessageEndTSAE [session: 5]
+08-12-2018 22:52:14:667 groupXX@192.168.1.37:35002 [TRACE] : [TSAESessionPartnerSide] [session: 5] End TSAE session
+08-12-2018 22:52:19:621 groupXX@192.168.1.37:35002 [TRACE] : [TSAESessionPartnerSide] [session: 5] TSAE session
+08-12-2018 22:52:19:622 groupXX@192.168.1.37:35002 [TRACE] : [TSAESessionPartnerSide] [session: 5] received message: MessageAErequest [session: 5, summary=groupXX@192.168.1.37:35000:   -1000
+groupXX@192.168.1.37:35002:   -1000
+groupXX@192.168.1.37:35001:   0
+]
+08-12-2018 22:52:19:623 groupXX@192.168.1.37:35002 [TRACE] : [TSAESessionPartnerSide] [session: 5] sent message: MessageAErequest [session: 5, summary=groupXX@192.168.1.37:35000:   -1000
+groupXX@192.168.1.37:35002:   -1000
+groupXX@192.168.1.37:35001:   0
+]
+08-12-2018 22:52:19:624 groupXX@192.168.1.37:35002 [TRACE] : [TSAESessionPartnerSide] [session: 5] sent message: MessageAErequest [session: 5, summary=null]
+08-12-2018 22:52:19:627 groupXX@192.168.1.37:35002 [TRACE] : [TSAESessionPartnerSide] [session: 5] received message: MessageOperation [session: 5, operation=AddOperation [recipe=[test1, test1, groupXX], timestamp=groupXX@192.168.1.37:35000:   0]]
+08-12-2018 22:52:19:628 groupXX@192.168.1.37:35002 [TRACE] : [TSAESessionPartnerSide] [session: 5] received message: MessageOperation [session: 5, operation=AddOperation [recipe=[test2, test2, groupXX], timestamp=groupXX@192.168.1.37:35001:   0]]
+08-12-2018 22:52:19:629 groupXX@192.168.1.37:35002 [TRACE] : [TSAESessionPartnerSide] [session: 5] received message: MessageEndTSAE [session: 5]
+08-12-2018 22:52:19:630 groupXX@192.168.1.37:35002 [TRACE] : [TSAESessionPartnerSide] [session: 5] sent message: MessageEndTSAE [session: 5]
+08-12-2018 22:52:19:630 groupXX@192.168.1.37:35002 [TRACE] : [TSAESessionPartnerSide] [session: 5] End TSAE session
+08-12-2018 22:52:24:656 groupXX@192.168.1.37:35002 [TRACE] : [TSAESessionOriginatorSide] [session: 5] TSAE session
+08-12-2018 22:52:24:661 groupXX@192.168.1.37:35002 [TRACE] : [TSAESessionOriginatorSide] [session: 5] sent message: MessageAErequest [session: 5, summary=groupXX@192.168.1.37:35000:   -1000
+groupXX@192.168.1.37:35002:   -1000
+groupXX@192.168.1.37:35001:   -1000
+]
+08-12-2018 22:52:24:665 groupXX@192.168.1.37:35002 [TRACE] : [TSAESessionOriginatorSide] [session: 5] received message: MessageOperation [session: 5, operation=AddOperation [recipe=[test1, test1, groupXX], timestamp=groupXX@192.168.1.37:35000:   0]]
+08-12-2018 22:52:24:666 groupXX@192.168.1.37:35002 [TRACE] : [TSAESessionOriginatorSide] [session: 5] received message: MessageOperation [session: 5, operation=AddOperation [recipe=[test2, test2, groupXX], timestamp=groupXX@192.168.1.37:35001:   0]]
+08-12-2018 22:52:24:667 groupXX@192.168.1.37:35002 [TRACE] : [TSAESessionOriginatorSide] [session: 5] received message: MessageAErequest [session: 5, summary=null]
+08-12-2018 22:52:24:669 groupXX@192.168.1.37:35002 [TRACE] : [TSAESessionOriginatorSide] [session: 5] sent message: MessageAErequest [session: 5, summary=null]
+08-12-2018 22:52:24:669 groupXX@192.168.1.37:35002 [TRACE] : [TSAESessionOriginatorSide] [session: 5] sent message: MessageEndTSAE [session: 5]
+08-12-2018 22:52:24:673 groupXX@192.168.1.37:35002 [TRACE] : [TSAESessionOriginatorSide] [session: 5] received message: MessageEndTSAE [session: 5]
+08-12-2018 22:52:24:673 groupXX@192.168.1.37:35002 [TRACE] : Inserting into Log the operation: AddOperation [recipe=[test1, test1, groupXX], timestamp=groupXX@192.168.1.37:35000:   0]
+08-12-2018 22:52:24:674 groupXX@192.168.1.37:35002 [TRACE] : Inserting into Log the operation: AddOperation [recipe=[test2, test2, groupXX], timestamp=groupXX@192.168.1.37:35001:   0]
+08-12-2018 22:52:24:674 groupXX@192.168.1.37:35002 [TRACE] : [TSAESessionOriginatorSide] [session: 5] End TSAE session
+08-12-2018 22:52:24:675 groupXX@192.168.1.37:35002 [TRACE] : [TSAESessionOriginatorSide] [session: 6] TSAE session
+08-12-2018 22:52:24:680 groupXX@192.168.1.37:35002 [TRACE] : [TSAESessionOriginatorSide] [session: 6] sent message: MessageAErequest [session: 6, summary=groupXX@192.168.1.37:35000:   -1000
+groupXX@192.168.1.37:35002:   -1000
+groupXX@192.168.1.37:35001:   -1000
+]
+08-12-2018 22:52:24:686 groupXX@192.168.1.37:35002 [TRACE] : [TSAESessionOriginatorSide] [session: 6] received message: MessageOperation [session: 6, operation=AddOperation [recipe=[test1, test1, groupXX], timestamp=groupXX@192.168.1.37:35000:   0]]
+08-12-2018 22:52:24:687 groupXX@192.168.1.37:35002 [TRACE] : [TSAESessionOriginatorSide] [session: 6] received message: MessageOperation [session: 6, operation=AddOperation [recipe=[test2, test2, groupXX], timestamp=groupXX@192.168.1.37:35001:   0]]
+08-12-2018 22:52:24:688 groupXX@192.168.1.37:35002 [TRACE] : [TSAESessionOriginatorSide] [session: 6] received message: MessageAErequest [session: 6, summary=null]
+08-12-2018 22:52:24:689 groupXX@192.168.1.37:35002 [TRACE] : [TSAESessionOriginatorSide] [session: 6] sent message: MessageAErequest [session: 6, summary=null]
+08-12-2018 22:52:24:690 groupXX@192.168.1.37:35002 [TRACE] : [TSAESessionOriginatorSide] [session: 6] sent message: MessageAErequest [session: 6, summary=null]
+08-12-2018 22:52:24:691 groupXX@192.168.1.37:35002 [TRACE] : [TSAESessionOriginatorSide] [session: 6] sent message: MessageEndTSAE [session: 6]
+08-12-2018 22:52:24:694 groupXX@192.168.1.37:35002 [TRACE] : [TSAESessionOriginatorSide] [session: 6] received message: MessageEndTSAE [session: 6]
+08-12-2018 22:52:24:695 groupXX@192.168.1.37:35002 [TRACE] : Inserting into Log the operation: AddOperation [recipe=[test1, test1, groupXX], timestamp=groupXX@192.168.1.37:35000:   0]
+08-12-2018 22:52:24:695 groupXX@192.168.1.37:35002 [TRACE] : Inserting into Log the operation: AddOperation [recipe=[test2, test2, groupXX], timestamp=groupXX@192.168.1.37:35001:   0]
+08-12-2018 22:52:24:696 groupXX@192.168.1.37:35002 [TRACE] : [TSAESessionOriginatorSide] [session: 6] End TSAE session
+08-12-2018 22:52:34:654 groupXX@192.168.1.37:35002 [TRACE] : [TSAESessionPartnerSide] [session: 7] TSAE session
+08-12-2018 22:52:34:654 groupXX@192.168.1.37:35002 [TRACE] : [TSAESessionPartnerSide] [session: 7] received message: MessageAErequest [session: 7, summary=groupXX@192.168.1.37:35000:   0
+groupXX@192.168.1.37:35002:   -1000
+groupXX@192.168.1.37:35001:   -1000
+]
+08-12-2018 22:52:34:656 groupXX@192.168.1.37:35002 [TRACE] : [TSAESessionPartnerSide] [session: 7] sent message: MessageAErequest [session: 7, summary=groupXX@192.168.1.37:35000:   0
+groupXX@192.168.1.37:35002:   -1000
+groupXX@192.168.1.37:35001:   -1000
+]
+08-12-2018 22:52:34:656 groupXX@192.168.1.37:35002 [TRACE] : [TSAESessionPartnerSide] [session: 7] sent message: MessageAErequest [session: 7, summary=null]
+08-12-2018 22:52:34:659 groupXX@192.168.1.37:35002 [TRACE] : [TSAESessionPartnerSide] [session: 7] received message: MessageOperation [session: 7, operation=AddOperation [recipe=[test1, test1, groupXX], timestamp=groupXX@192.168.1.37:35000:   0]]
+08-12-2018 22:52:34:660 groupXX@192.168.1.37:35002 [TRACE] : [TSAESessionPartnerSide] [session: 7] received message: MessageOperation [session: 7, operation=AddOperation [recipe=[test2, test2, groupXX], timestamp=groupXX@192.168.1.37:35001:   0]]
+08-12-2018 22:52:34:660 groupXX@192.168.1.37:35002 [TRACE] : [TSAESessionPartnerSide] [session: 7] received message: MessageEndTSAE [session: 7]
+08-12-2018 22:52:34:661 groupXX@192.168.1.37:35002 [TRACE] : [TSAESessionPartnerSide] [session: 7] sent message: MessageEndTSAE [session: 7]
+08-12-2018 22:52:34:662 groupXX@192.168.1.37:35002 [TRACE] : [TSAESessionPartnerSide] [session: 7] End TSAE session
+08-12-2018 22:52:39:628 groupXX@192.168.1.37:35002 [TRACE] : [TSAESessionPartnerSide] [session: 8] TSAE session
+08-12-2018 22:52:39:629 groupXX@192.168.1.37:35002 [TRACE] : [TSAESessionPartnerSide] [session: 8] received message: MessageAErequest [session: 8, summary=groupXX@192.168.1.37:35000:   -1000
+groupXX@192.168.1.37:35002:   -1000
+groupXX@192.168.1.37:35001:   0
+]
+08-12-2018 22:52:39:630 groupXX@192.168.1.37:35002 [TRACE] : [TSAESessionPartnerSide] [session: 8] sent message: MessageAErequest [session: 8, summary=groupXX@192.168.1.37:35000:   -1000
+groupXX@192.168.1.37:35002:   -1000
+groupXX@192.168.1.37:35001:   0
+]
+08-12-2018 22:52:39:631 groupXX@192.168.1.37:35002 [TRACE] : [TSAESessionPartnerSide] [session: 8] sent message: MessageAErequest [session: 8, summary=null]
+08-12-2018 22:52:39:634 groupXX@192.168.1.37:35002 [TRACE] : [TSAESessionPartnerSide] [session: 8] received message: MessageOperation [session: 8, operation=AddOperation [recipe=[test1, test1, groupXX], timestamp=groupXX@192.168.1.37:35000:   0]]
+08-12-2018 22:52:39:635 groupXX@192.168.1.37:35002 [TRACE] : [TSAESessionPartnerSide] [session: 8] received message: MessageOperation [session: 8, operation=AddOperation [recipe=[test2, test2, groupXX], timestamp=groupXX@192.168.1.37:35001:   0]]
+08-12-2018 22:52:39:636 groupXX@192.168.1.37:35002 [TRACE] : [TSAESessionPartnerSide] [session: 8] received message: MessageEndTSAE [session: 8]
+08-12-2018 22:52:39:636 groupXX@192.168.1.37:35002 [TRACE] : [TSAESessionPartnerSide] [session: 8] sent message: MessageEndTSAE [session: 8]
+08-12-2018 22:52:39:637 groupXX@192.168.1.37:35002 [TRACE] : [TSAESessionPartnerSide] [session: 8] End TSAE session
+08-12-2018 22:52:44:655 groupXX@192.168.1.37:35002 [TRACE] : [TSAESessionOriginatorSide] [session: 7] TSAE session
+08-12-2018 22:52:44:660 groupXX@192.168.1.37:35002 [TRACE] : [TSAESessionOriginatorSide] [session: 7] sent message: MessageAErequest [session: 7, summary=groupXX@192.168.1.37:35000:   -1000
+groupXX@192.168.1.37:35002:   -1000
+groupXX@192.168.1.37:35001:   -1000
+]
+08-12-2018 22:52:44:663 groupXX@192.168.1.37:35002 [TRACE] : [TSAESessionOriginatorSide] [session: 7] received message: MessageOperation [session: 7, operation=AddOperation [recipe=[test1, test1, groupXX], timestamp=groupXX@192.168.1.37:35000:   0]]
+08-12-2018 22:52:44:664 groupXX@192.168.1.37:35002 [TRACE] : [TSAESessionOriginatorSide] [session: 7] received message: MessageOperation [session: 7, operation=AddOperation [recipe=[test2, test2, groupXX], timestamp=groupXX@192.168.1.37:35001:   0]]
+08-12-2018 22:52:44:665 groupXX@192.168.1.37:35002 [TRACE] : [TSAESessionOriginatorSide] [session: 7] received message: MessageAErequest [session: 7, summary=null]
+08-12-2018 22:52:44:666 groupXX@192.168.1.37:35002 [TRACE] : [TSAESessionOriginatorSide] [session: 7] sent message: MessageAErequest [session: 7, summary=null]
+08-12-2018 22:52:44:667 groupXX@192.168.1.37:35002 [TRACE] : [TSAESessionOriginatorSide] [session: 7] sent message: MessageAErequest [session: 7, summary=null]
+08-12-2018 22:52:44:668 groupXX@192.168.1.37:35002 [TRACE] : [TSAESessionOriginatorSide] [session: 7] sent message: MessageEndTSAE [session: 7]
+08-12-2018 22:52:44:670 groupXX@192.168.1.37:35002 [TRACE] : [TSAESessionOriginatorSide] [session: 7] received message: MessageEndTSAE [session: 7]
+08-12-2018 22:52:44:671 groupXX@192.168.1.37:35002 [TRACE] : Inserting into Log the operation: AddOperation [recipe=[test1, test1, groupXX], timestamp=groupXX@192.168.1.37:35000:   0]
+08-12-2018 22:52:44:671 groupXX@192.168.1.37:35002 [TRACE] : Inserting into Log the operation: AddOperation [recipe=[test2, test2, groupXX], timestamp=groupXX@192.168.1.37:35001:   0]
+08-12-2018 22:52:44:672 groupXX@192.168.1.37:35002 [TRACE] : [TSAESessionOriginatorSide] [session: 7] End TSAE session
+08-12-2018 22:52:44:672 groupXX@192.168.1.37:35002 [TRACE] : [TSAESessionOriginatorSide] [session: 8] TSAE session
+08-12-2018 22:52:44:675 groupXX@192.168.1.37:35002 [TRACE] : [TSAESessionOriginatorSide] [session: 8] sent message: MessageAErequest [session: 8, summary=groupXX@192.168.1.37:35000:   -1000
+groupXX@192.168.1.37:35002:   -1000
+groupXX@192.168.1.37:35001:   -1000
+]
+08-12-2018 22:52:44:679 groupXX@192.168.1.37:35002 [TRACE] : [TSAESessionOriginatorSide] [session: 8] received message: MessageOperation [session: 8, operation=AddOperation [recipe=[test1, test1, groupXX], timestamp=groupXX@192.168.1.37:35000:   0]]
+08-12-2018 22:52:44:680 groupXX@192.168.1.37:35002 [TRACE] : [TSAESessionOriginatorSide] [session: 8] received message: MessageOperation [session: 8, operation=AddOperation [recipe=[test2, test2, groupXX], timestamp=groupXX@192.168.1.37:35001:   0]]
+08-12-2018 22:52:44:681 groupXX@192.168.1.37:35002 [TRACE] : [TSAESessionOriginatorSide] [session: 8] received message: MessageAErequest [session: 8, summary=null]
+08-12-2018 22:52:44:682 groupXX@192.168.1.37:35002 [TRACE] : [TSAESessionOriginatorSide] [session: 8] sent message: MessageAErequest [session: 8, summary=null]
+08-12-2018 22:52:44:683 groupXX@192.168.1.37:35002 [TRACE] : [TSAESessionOriginatorSide] [session: 8] sent message: MessageAErequest [session: 8, summary=null]
+08-12-2018 22:52:44:683 groupXX@192.168.1.37:35002 [TRACE] : [TSAESessionOriginatorSide] [session: 8] sent message: MessageEndTSAE [session: 8]
+08-12-2018 22:52:44:685 groupXX@192.168.1.37:35002 [TRACE] : [TSAESessionOriginatorSide] [session: 8] received message: MessageEndTSAE [session: 8]
+08-12-2018 22:52:44:686 groupXX@192.168.1.37:35002 [TRACE] : Inserting into Log the operation: AddOperation [recipe=[test1, test1, groupXX], timestamp=groupXX@192.168.1.37:35000:   0]
+08-12-2018 22:52:44:686 groupXX@192.168.1.37:35002 [TRACE] : Inserting into Log the operation: AddOperation [recipe=[test2, test2, groupXX], timestamp=groupXX@192.168.1.37:35001:   0]
+08-12-2018 22:52:44:687 groupXX@192.168.1.37:35002 [TRACE] : [TSAESessionOriginatorSide] [session: 8] End TSAE session
+08-12-2018 22:52:54:672 groupXX@192.168.1.37:35002 [TRACE] : [TSAESessionPartnerSide] [session: 10] TSAE session
+08-12-2018 22:52:54:673 groupXX@192.168.1.37:35002 [TRACE] : [TSAESessionPartnerSide] [session: 10] received message: MessageAErequest [session: 10, summary=groupXX@192.168.1.37:35000:   0
+groupXX@192.168.1.37:35002:   -1000
+groupXX@192.168.1.37:35001:   -1000
+]
+08-12-2018 22:52:54:673 groupXX@192.168.1.37:35002 [TRACE] : [TSAESessionPartnerSide] [session: 10] sent message: MessageAErequest [session: 10, summary=groupXX@192.168.1.37:35000:   0
+groupXX@192.168.1.37:35002:   -1000
+groupXX@192.168.1.37:35001:   -1000
+]
+08-12-2018 22:52:54:674 groupXX@192.168.1.37:35002 [TRACE] : [TSAESessionPartnerSide] [session: 10] sent message: MessageAErequest [session: 10, summary=null]
+08-12-2018 22:52:54:677 groupXX@192.168.1.37:35002 [TRACE] : [TSAESessionPartnerSide] [session: 10] received message: MessageOperation [session: 10, operation=AddOperation [recipe=[test1, test1, groupXX], timestamp=groupXX@192.168.1.37:35000:   0]]
+08-12-2018 22:52:54:677 groupXX@192.168.1.37:35002 [TRACE] : [TSAESessionPartnerSide] [session: 10] received message: MessageOperation [session: 10, operation=AddOperation [recipe=[test2, test2, groupXX], timestamp=groupXX@192.168.1.37:35001:   0]]
+08-12-2018 22:52:54:678 groupXX@192.168.1.37:35002 [TRACE] : [TSAESessionPartnerSide] [session: 10] received message: MessageEndTSAE [session: 10]
+08-12-2018 22:52:54:679 groupXX@192.168.1.37:35002 [TRACE] : [TSAESessionPartnerSide] [session: 10] sent message: MessageEndTSAE [session: 10]
+08-12-2018 22:52:54:680 groupXX@192.168.1.37:35002 [TRACE] : [TSAESessionPartnerSide] [session: 10] End TSAE session
+08-12-2018 22:52:59:210 groupXX@192.168.1.37:35002 [DEBUG] : {}
+08-12-2018 22:52:59:233 groupXX@192.168.1.37:35002 [DEBUG] : AddOperation [recipe=[test1, test1, groupXX], timestamp=groupXX@192.168.1.37:35000:   0]
+AddOperation [recipe=[test2, test2, groupXX], timestamp=groupXX@192.168.1.37:35001:   0]
+
+08-12-2018 22:52:59:234 groupXX@192.168.1.37:35002 [DEBUG] : Summary: groupXX@192.168.1.37:35000:   -1000
+groupXX@192.168.1.37:35002:   -1000
+groupXX@192.168.1.37:35001:   -1000
+
+08-12-2018 22:52:59:234 groupXX@192.168.1.37:35002 [DEBUG] : Ack: groupXX@192.168.1.37:35000:   groupXX@192.168.1.37:35000:   -1000
+groupXX@192.168.1.37:35002:   -1000
+groupXX@192.168.1.37:35001:   -1000
+
+groupXX@192.168.1.37:35002:   groupXX@192.168.1.37:35000:   -1000
+groupXX@192.168.1.37:35002:   -1000
+groupXX@192.168.1.37:35001:   -1000
+
+groupXX@192.168.1.37:35001:   groupXX@192.168.1.37:35000:   -1000
+groupXX@192.168.1.37:35002:   -1000
+groupXX@192.168.1.37:35001:   -1000
+
+
+08-12-2018 22:52:59:234 groupXX@192.168.1.37:35002 [INFO] : END

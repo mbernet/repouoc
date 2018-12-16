@@ -1,0 +1,97 @@
+10-12-2018 17:29:02:769 groupXX@192.168.1.37:35004 [INFO] : -- *** --> Server -- local node: [192.168.1.37,35004,groupXX@192.168.1.37:35004]
+10-12-2018 17:29:02:781 groupXX@192.168.1.37:35004 [INFO] : -- *** --> Server -- participants: [groupXX@192.168.1.37:35000, groupXX@192.168.1.37:35001, groupXX@192.168.1.37:35002, groupXX@192.168.1.37:35003, groupXX@192.168.1.37:35004]
+10-12-2018 17:29:02:786 groupXX@192.168.1.37:35004 [TRACE] : [TSAESessionOriginatorSide] [session: 1] TSAE session
+10-12-2018 17:29:02:867 groupXX@192.168.1.37:35004 [TRACE] : [TSAESessionOriginatorSide] [session: 2] TSAE session
+10-12-2018 17:29:02:874 groupXX@192.168.1.37:35004 [TRACE] : [TSAESessionOriginatorSide] [session: 3] TSAE session
+10-12-2018 17:29:02:881 groupXX@192.168.1.37:35004 [TRACE] : [TSAESessionOriginatorSide] [session: 4] TSAE session
+10-12-2018 17:29:22:790 groupXX@192.168.1.37:35004 [TRACE] : [TSAESessionOriginatorSide] [session: 5] TSAE session
+10-12-2018 17:29:22:797 groupXX@192.168.1.37:35004 [TRACE] : [TSAESessionOriginatorSide] [session: 6] TSAE session
+10-12-2018 17:29:22:801 groupXX@192.168.1.37:35004 [TRACE] : [TSAESessionOriginatorSide] [session: 7] TSAE session
+10-12-2018 17:29:22:804 groupXX@192.168.1.37:35004 [TRACE] : [TSAESessionOriginatorSide] [session: 8] TSAE session
+10-12-2018 17:29:42:788 groupXX@192.168.1.37:35004 [TRACE] : [TSAESessionOriginatorSide] [session: 9] TSAE session
+10-12-2018 17:29:42:794 groupXX@192.168.1.37:35004 [TRACE] : [TSAESessionOriginatorSide] [session: 10] TSAE session
+10-12-2018 17:29:42:798 groupXX@192.168.1.37:35004 [TRACE] : [TSAESessionOriginatorSide] [session: 11] TSAE session
+10-12-2018 17:29:42:801 groupXX@192.168.1.37:35004 [TRACE] : [TSAESessionOriginatorSide] [session: 12] TSAE session
+10-12-2018 17:30:02:786 groupXX@192.168.1.37:35004 [TRACE] : [TSAESessionOriginatorSide] [session: 13] TSAE session
+10-12-2018 17:30:02:790 groupXX@192.168.1.37:35004 [TRACE] : [TSAESessionOriginatorSide] [session: 14] TSAE session
+10-12-2018 17:30:02:794 groupXX@192.168.1.37:35004 [TRACE] : [TSAESessionOriginatorSide] [session: 15] TSAE session
+10-12-2018 17:30:02:799 groupXX@192.168.1.37:35004 [TRACE] : [TSAESessionOriginatorSide] [session: 16] TSAE session
+10-12-2018 17:30:04:376 groupXX@192.168.1.37:35004 [INFO] : [groupXX@192.168.1.37:35004] >> Server DISCONNECTION
+10-12-2018 17:31:24:377 groupXX@192.168.1.37:35004 [INFO] : [groupXX@192.168.1.37:35004] >> Server RECONNECTION
+10-12-2018 17:31:42:787 groupXX@192.168.1.37:35004 [TRACE] : [TSAESessionOriginatorSide] [session: 17] TSAE session
+10-12-2018 17:31:42:791 groupXX@192.168.1.37:35004 [TRACE] : [TSAESessionOriginatorSide] [session: 18] TSAE session
+10-12-2018 17:31:42:793 groupXX@192.168.1.37:35004 [TRACE] : [TSAESessionOriginatorSide] [session: 19] TSAE session
+10-12-2018 17:31:42:796 groupXX@192.168.1.37:35004 [TRACE] : [TSAESessionOriginatorSide] [session: 20] TSAE session
+10-12-2018 17:32:02:791 groupXX@192.168.1.37:35004 [TRACE] : [TSAESessionOriginatorSide] [session: 21] TSAE session
+10-12-2018 17:32:02:794 groupXX@192.168.1.37:35004 [TRACE] : [TSAESessionOriginatorSide] [session: 22] TSAE session
+10-12-2018 17:32:02:797 groupXX@192.168.1.37:35004 [TRACE] : [TSAESessionOriginatorSide] [session: 23] TSAE session
+10-12-2018 17:32:02:799 groupXX@192.168.1.37:35004 [TRACE] : [TSAESessionOriginatorSide] [session: 24] TSAE session
+10-12-2018 17:32:22:790 groupXX@192.168.1.37:35004 [TRACE] : [TSAESessionOriginatorSide] [session: 25] TSAE session
+10-12-2018 17:32:22:793 groupXX@192.168.1.37:35004 [TRACE] : [TSAESessionOriginatorSide] [session: 26] TSAE session
+10-12-2018 17:32:22:795 groupXX@192.168.1.37:35004 [TRACE] : [TSAESessionOriginatorSide] [session: 27] TSAE session
+10-12-2018 17:32:22:797 groupXX@192.168.1.37:35004 [TRACE] : [TSAESessionOriginatorSide] [session: 28] TSAE session
+10-12-2018 17:32:24:372 groupXX@192.168.1.37:35004 [INFO] : [groupXX@192.168.1.37:35004] ADD recipe: uvpkeqmw
+10-12-2018 17:32:42:786 groupXX@192.168.1.37:35004 [TRACE] : [TSAESessionOriginatorSide] [session: 29] TSAE session
+10-12-2018 17:32:42:788 groupXX@192.168.1.37:35004 [TRACE] : [TSAESessionOriginatorSide] [session: 30] TSAE session
+10-12-2018 17:32:42:791 groupXX@192.168.1.37:35004 [TRACE] : [TSAESessionOriginatorSide] [session: 31] TSAE session
+10-12-2018 17:32:42:793 groupXX@192.168.1.37:35004 [TRACE] : [TSAESessionOriginatorSide] [session: 32] TSAE session
+10-12-2018 17:33:02:790 groupXX@192.168.1.37:35004 [TRACE] : [TSAESessionOriginatorSide] [session: 33] TSAE session
+10-12-2018 17:33:02:794 groupXX@192.168.1.37:35004 [TRACE] : [TSAESessionOriginatorSide] [session: 34] TSAE session
+10-12-2018 17:33:02:797 groupXX@192.168.1.37:35004 [TRACE] : [TSAESessionOriginatorSide] [session: 35] TSAE session
+10-12-2018 17:33:02:800 groupXX@192.168.1.37:35004 [TRACE] : [TSAESessionOriginatorSide] [session: 36] TSAE session
+10-12-2018 17:33:04:374 groupXX@192.168.1.37:35004 [INFO] : [groupXX@192.168.1.37:35004] ADD recipe: vvbrtkob
+10-12-2018 17:33:22:789 groupXX@192.168.1.37:35004 [TRACE] : [TSAESessionOriginatorSide] [session: 37] TSAE session
+10-12-2018 17:33:22:793 groupXX@192.168.1.37:35004 [TRACE] : [TSAESessionOriginatorSide] [session: 38] TSAE session
+10-12-2018 17:33:22:795 groupXX@192.168.1.37:35004 [TRACE] : [TSAESessionOriginatorSide] [session: 39] TSAE session
+10-12-2018 17:33:22:797 groupXX@192.168.1.37:35004 [TRACE] : [TSAESessionOriginatorSide] [session: 40] TSAE session
+10-12-2018 17:33:42:795 groupXX@192.168.1.37:35004 [TRACE] : [TSAESessionOriginatorSide] [session: 41] TSAE session
+10-12-2018 17:33:42:797 groupXX@192.168.1.37:35004 [TRACE] : [TSAESessionOriginatorSide] [session: 42] TSAE session
+10-12-2018 17:33:42:799 groupXX@192.168.1.37:35004 [TRACE] : [TSAESessionOriginatorSide] [session: 43] TSAE session
+10-12-2018 17:33:42:801 groupXX@192.168.1.37:35004 [TRACE] : [TSAESessionOriginatorSide] [session: 44] TSAE session
+10-12-2018 17:34:02:787 groupXX@192.168.1.37:35004 [TRACE] : [TSAESessionOriginatorSide] [session: 45] TSAE session
+10-12-2018 17:34:02:789 groupXX@192.168.1.37:35004 [TRACE] : [TSAESessionOriginatorSide] [session: 46] TSAE session
+10-12-2018 17:34:02:790 groupXX@192.168.1.37:35004 [TRACE] : [TSAESessionOriginatorSide] [session: 47] TSAE session
+10-12-2018 17:34:02:791 groupXX@192.168.1.37:35004 [TRACE] : [TSAESessionOriginatorSide] [session: 48] TSAE session
+10-12-2018 17:34:03:079 groupXX@192.168.1.37:35004 [INFO] : Server groupXX@192.168.1.37:35004 finishes Activity Simulation
+10-12-2018 17:34:03:227 groupXX@192.168.1.37:35004 [DEBUG] : ##### [iteration: 1/36] sending partial result
+10-12-2018 17:34:03:228 groupXX@192.168.1.37:35004 [TRACE] : {uvpkeqmw=[uvpkeqmw, Content--uvpkeqmw, groupXX], vvbrtkob=[vvbrtkob, Content--vvbrtkob, groupXX]}
+10-12-2018 17:34:03:243 groupXX@192.168.1.37:35004 [TRACE] : AddOperation [recipe=[uvpkeqmw, Content--uvpkeqmw, groupXX], timestamp=groupXX@192.168.1.37:35004:   0]
+AddOperation [recipe=[vvbrtkob, Content--vvbrtkob, groupXX], timestamp=groupXX@192.168.1.37:35004:   1]
+
+10-12-2018 17:34:03:244 groupXX@192.168.1.37:35004 [TRACE] : Summary: groupXX@192.168.1.37:35004:   1
+groupXX@192.168.1.37:35003:   -1000
+groupXX@192.168.1.37:35000:   -1000
+groupXX@192.168.1.37:35002:   -1000
+groupXX@192.168.1.37:35001:   -1000
+
+10-12-2018 17:34:03:245 groupXX@192.168.1.37:35004 [TRACE] : Ack: groupXX@192.168.1.37:35004:   groupXX@192.168.1.37:35004:   1
+groupXX@192.168.1.37:35003:   -1000
+groupXX@192.168.1.37:35000:   -1000
+groupXX@192.168.1.37:35002:   -1000
+groupXX@192.168.1.37:35001:   -1000
+
+groupXX@192.168.1.37:35003:   groupXX@192.168.1.37:35004:   -1000
+groupXX@192.168.1.37:35003:   -1000
+groupXX@192.168.1.37:35000:   -1000
+groupXX@192.168.1.37:35002:   -1000
+groupXX@192.168.1.37:35001:   -1000
+
+groupXX@192.168.1.37:35000:   groupXX@192.168.1.37:35004:   -1000
+groupXX@192.168.1.37:35003:   -1000
+groupXX@192.168.1.37:35000:   -1000
+groupXX@192.168.1.37:35002:   -1000
+groupXX@192.168.1.37:35001:   -1000
+
+groupXX@192.168.1.37:35002:   groupXX@192.168.1.37:35004:   -1000
+groupXX@192.168.1.37:35003:   -1000
+groupXX@192.168.1.37:35000:   -1000
+groupXX@192.168.1.37:35002:   -1000
+groupXX@192.168.1.37:35001:   -1000
+
+groupXX@192.168.1.37:35001:   groupXX@192.168.1.37:35004:   -1000
+groupXX@192.168.1.37:35003:   -1000
+groupXX@192.168.1.37:35000:   -1000
+groupXX@192.168.1.37:35002:   -1000
+groupXX@192.168.1.37:35001:   -1000
+
+
