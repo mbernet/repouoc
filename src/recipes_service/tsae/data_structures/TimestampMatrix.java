@@ -70,10 +70,10 @@ public class TimestampMatrix implements Serializable{
 	 * @param tsMatrix
 	 */
 	public synchronized void updateMax(TimestampMatrix tsMatrix){
-		
+		/*
 		if (tsMatrix == null) {
 			return;
-		}	
+		}*/	
 		
 		for(String node: tsMatrix.timestampMatrix.keySet()) {
            
