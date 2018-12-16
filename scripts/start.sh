@@ -24,7 +24,7 @@ for (( i = 0 ; i < $2; i++ )); do
 	lsof -nti:$PORTB | xargs kill -9
 done
 
-sleep 20
+sleep 4
 
 LOCAL_TEST_SERVER="true"
 PHASE1="false"
