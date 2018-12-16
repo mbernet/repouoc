@@ -1,2 +1,0 @@
-20-10-2018 17:02:57:498 phase1 [TRACE] : Inserting into Log the operation: AddOperation [recipe=[phase1, test, phase1], timestamp=localhost:9000:   0]
-20-10-2018 17:02:57:513 phase1 [TRACE] : Updating the TimestampVectorInserting with the timestamp: localhost:9000:   0

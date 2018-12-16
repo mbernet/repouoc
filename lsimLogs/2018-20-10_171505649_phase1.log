@@ -1,4 +1,0 @@
-20-10-2018 17:15:05:649 phase1 [TRACE] : Inserting into Log the operation: AddOperation [recipe=[Recepta1, Descripcio recepta 1, phase1], timestamp=localhost:9000:   0]
-20-10-2018 17:15:05:666 phase1 [TRACE] : Updating the TimestampVectorInserting with the timestamp: localhost:9000:   0
-20-10-2018 17:15:14:769 phase1 [TRACE] : Inserting into Log the operation: AddOperation [recipe=[Recepta2, Descripcio recepta 2, phase1], timestamp=localhost:9000:   1]
-20-10-2018 17:15:14:770 phase1 [TRACE] : Updating the TimestampVectorInserting with the timestamp: localhost:9000:   1
