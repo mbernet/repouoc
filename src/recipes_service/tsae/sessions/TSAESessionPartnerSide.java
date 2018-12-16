@@ -53,10 +53,10 @@ import edu.uoc.dpcs.lsim.logger.LoggerManager.Level;
 public class TSAESessionPartnerSide extends Thread{
 	// Needed for the logging system sgeag@2017
 	private LSimWorker lsim = LSimFactory.getWorkerInstance();
-	
+
 	private Socket socket = null;
 	private ServerData serverData = null;
-	
+
 	public TSAESessionPartnerSide(Socket socket, ServerData serverData) {
 		super("TSAEPartnerSideThread");
 		this.socket = socket;
@@ -71,30 +71,30 @@ public class TSAESessionPartnerSide extends Thread{
 		try {
 			ObjectOutputStream_DS out = new ObjectOutputStream_DS(socket.getOutputStream());
 			ObjectInputStream_DS in = new ObjectInputStream_DS(socket.getInputStream());
-			
+
 			// receive originator's summary and ack
 			msg = (Message) in.readObject();
 			current_session_number = msg.getSessionNumber();
 			
 			if (msg.type() == MsgType.AE_REQUEST){
-			
+
 				TimestampVector localSummary;
 				TimestampMatrix localAck;
-				
+
 				synchronized(serverData) {
 					localSummary = serverData.getSummary().clone();
 	                serverData.getAck().update(serverData.getId(), localSummary);
 	                localAck = serverData.getAck().clone();
 				}
-				
+
 				// send operations
 				MessageAErequest msgAE = (MessageAErequest) msg;
 				List<Operation> newerOperations = new ArrayList<Operation>();
-				
+
 				newerOperations = this.serverData.getLog().listNewer(msgAE.getSummary());
 				for(Operation op: newerOperations) {
 					MessageOperation msgOp = new MessageOperation(op);
-					msgOp.setSessionNumber(current_session_number);
+					//msgOp.setSessionNumber(current_session_number);
 					out.writeObject(msgOp);
 				}
 
@@ -110,13 +110,14 @@ public class TSAESessionPartnerSide extends Thread{
 					operations.add((MessageOperation)msg);
 					msg = (Message) in.readObject();
 				}
-				
+
 				// receive message to inform about the ending of the TSAE session
 				if (msg.type() == MsgType.END_TSAE){
-					
-					msg = new MessageEndTSAE();  
-					out.writeObject(msg);	
-					
+
+					msg = new MessageEndTSAE();
+					msg.setSessionNumber(current_session_number);
+					out.writeObject(msg);
+
 					synchronized(serverData) {
 						for(MessageOperation op: operations) {
 							switch(op.getOperation().getType()) {
@@ -129,18 +130,18 @@ public class TSAESessionPartnerSide extends Thread{
 									this.serverData.removeRecipeOperation(removeOp);
 									break;
 							}
-							
+
 						}
-					
+
 						//update summaries and trigger the message ordering component
 						serverData.getSummary().updateMax(msgAE.getSummary());
 						serverData.getAck().updateMax(msgAE.getAck());
 						serverData.getLog().purgeLog(serverData.getAck());
 					}
 				}
-				
+
 			}
-			socket.close();		
+			socket.close();
 		} catch (ClassNotFoundException e) {
 			// TODO Auto-generated catch block
 			//lsim.log(Level.FATAL, "[TSAESessionPartnerSide] [session: "+current_session_number+"]" + e.getMessage());
@@ -148,7 +149,7 @@ public class TSAESessionPartnerSide extends Thread{
             System.exit(1);
 		}catch (IOException e) {
 	    }
-		
+
 		//lsim.log(Level.TRACE, "[TSAESessionPartnerSide] [session: "+current_session_number+"] End TSAE session");
 	}
 }

@@ -108,11 +108,11 @@ public class Log implements Serializable{
 		
 		List<Operation> list = new ArrayList<Operation>();
 		for(String node: log.keySet()) {
-            for (Operation op : log.get(node)) {
-                if (op.getTimestamp().compare(sum.getLast(node)) > 0) {
-                	list.add(op);
-                }
-            }
+			for(Operation op: log.get(node)) {
+				if(sum == null || sum.getLast(node).compare(op.getTimestamp()) < 0) {
+					list.add(op);
+				}
+			}
 		}
 		return list;
 	}
