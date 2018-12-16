@@ -56,7 +56,7 @@ else
 			#gnome-terminal -x java -cp ../bin:../lib/* recipes_service.Server $* >$FILE &
 			#gnome-terminal -x java -cp ../bin:../lib/* recipes_service.Server $* &
 			#osascript -e `java -cp ../bin:../lib/* recipes_service.Server $* &`
-			COMMAND="java -cp ../bin:../lib/* recipes_service.Server $* "
+			COMMAND="cd $PWD; java -cp ../bin:../lib/* recipes_service.Server $* "
 			OSA="tell application \"Terminal\" to do script \"$COMMAND\""
 			osascript -e "$OSA"
 		else
