@@ -15,6 +15,16 @@
 
 # killall java
 
+
+STARTPORT=35000
+ENDPORT=$(($STARTPORT + $2))
+echo $STARTPORT
+echo $ENDPORT
+for (( i = $STARTPORT ; i < $ENDPORT; i++ )) do
+	echo "Closing port: $i"
+	lsof -nti:$i | xargs kill -9
+done
+lsof -nti:20004 | xargs kill -9
 sleep 1
 
 LOCAL_TEST_SERVER="true"
